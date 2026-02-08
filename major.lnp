@@ -1,0 +1,19 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\adc.o"
+".\arduino.o"
+".\delay.o"
+".\kpm.o"
+".\lcd.o"
+".\major_main.o"
+".\pin_connect_block.o"
+".\rtc.o"
+".\spi.o"
+".\spi_eeprom.o"
+".\system.o"
+".\uart0.o"
+".\esp01_2.o"
+--strict --scatter ".\major.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\major.map" -o .\major.axf

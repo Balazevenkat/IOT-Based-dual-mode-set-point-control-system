@@ -1,0 +1,17 @@
+.\major_main.o: major_main.c
+.\major_main.o: C:\Keil\ARM\Inc\Philips\LPC214x.h
+.\major_main.o: lcd.h
+.\major_main.o: types.h
+.\major_main.o: system.h
+.\major_main.o: delay.h
+.\major_main.o: adc.h
+.\major_main.o: rtc.h
+.\major_main.o: spi_eeprom.h
+.\major_main.o: kpm.h
+.\major_main.o: kpm_defines.h
+.\major_main.o: lcd_defines.h
+.\major_main.o: esp01.h
+.\major_main.o: pin_connect_block.h
+.\major_main.o: spi.h
+.\major_main.o: uart0.h
+.\major_main.o: uart_defines.h
