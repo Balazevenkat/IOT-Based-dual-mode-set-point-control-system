@@ -1,1 +1,3 @@
-*.c linguist-language=C
+*.c linguist-language=C linguist-vendored=false linguist-generated=false
+*.h linguist-language=C linguist-vendored=false linguist-generated=false
+*.html linguist-documentation
